@@ -16,7 +16,6 @@ const App = () => {
 
   return (
     <div className="container my-4">
-      {/* Mostrar película seleccionada */}
       {peliculaSeleccionada && (
         <PeliculaSeleccionada
           pelicula={peliculaSeleccionada}
